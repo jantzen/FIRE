@@ -37,6 +37,8 @@ $imax = $i-1;
 
 fclose($file_handle);
 
+echo "This is a program for reading a file that has already been uploaded.<br>";
+
 echo "Now printing stored data: <br>";
 
 for($i=0;$i<$imax;$i++){
