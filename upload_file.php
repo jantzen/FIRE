@@ -1,7 +1,7 @@
  <?php
 $allowedExts = array("dat");
 $temp = explode(".", $_FILES["file"]["name"]);
-$extension = end($temp);
+$extension=end($temp);
 
 if (($_FILES["file"]["size"] < 20000)
 && in_array($extension, $allowedExts)) {
